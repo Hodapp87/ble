@@ -3,9 +3,9 @@ package hci
 import (
 	"net"
 
-	"github.com/currantlabs/ble"
-	"github.com/currantlabs/ble/linux/adv"
-	"github.com/currantlabs/ble/linux/hci/evt"
+	"github.com/Hodapp87/ble"
+	"github.com/Hodapp87/ble/linux/adv"
+	"github.com/Hodapp87/ble/linux/hci/evt"
 )
 
 // RandomAddress is a Random Device Address.

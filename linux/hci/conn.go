@@ -9,9 +9,9 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/currantlabs/ble"
-	"github.com/currantlabs/ble/linux/hci/cmd"
-	"github.com/currantlabs/ble/linux/hci/evt"
+	"github.com/Hodapp87/ble"
+	"github.com/Hodapp87/ble/linux/hci/cmd"
+	"github.com/Hodapp87/ble/linux/hci/evt"
 	"github.com/pkg/errors"
 )
 

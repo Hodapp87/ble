@@ -1,8 +1,8 @@
 package dev
 
 import (
-	"github.com/currantlabs/ble"
-	"github.com/currantlabs/ble/linux"
+	"github.com/Hodapp87/ble"
+	"github.com/Hodapp87/ble/linux"
 )
 
 // DefaultDevice ...

@@ -6,8 +6,8 @@ import (
 	"log"
 	"sync"
 
-	"github.com/currantlabs/ble"
-	"github.com/currantlabs/ble/linux/att"
+	"github.com/Hodapp87/ble"
+	"github.com/Hodapp87/ble/linux/att"
 )
 
 const (

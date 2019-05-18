@@ -1,6 +1,6 @@
 package dev
 
-import "github.com/currantlabs/ble"
+import "github.com/Hodapp87/ble"
 
 // NewDevice ...
 func NewDevice(impl string) (d ble.Device, err error) {

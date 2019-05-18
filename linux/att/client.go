@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/currantlabs/ble"
+	"github.com/Hodapp87/ble"
 	"github.com/pkg/errors"
 )
 

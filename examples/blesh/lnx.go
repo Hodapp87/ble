@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/currantlabs/ble/linux"
-	"github.com/currantlabs/ble/linux/hci"
-	"github.com/currantlabs/ble/linux/hci/cmd"
+	"github.com/Hodapp87/ble/linux"
+	"github.com/Hodapp87/ble/linux/hci"
+	"github.com/Hodapp87/ble/linux/hci/cmd"
 	"github.com/pkg/errors"
 )
 

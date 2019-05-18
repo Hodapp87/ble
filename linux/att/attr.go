@@ -1,6 +1,6 @@
 package att
 
-import "github.com/currantlabs/ble"
+import "github.com/Hodapp87/ble"
 
 // attr is a BLE attribute.
 type attr struct {
