@@ -13,8 +13,8 @@ import (
 )
 
 // NewDevice returns the default HCI device.
-func NewDevice() (*Device, error) {
-	dev, err := hci.NewHCI()
+func NewDevice(id int) (*Device, error) {
+	dev, err := hci.NewHCI(id)
 	if err != nil {
 		return nil, errors.Wrap(err, "can't create hci")
 	}

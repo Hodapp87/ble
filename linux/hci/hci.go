@@ -34,9 +34,9 @@ type pkt struct {
 }
 
 // NewHCI returns a hci device.
-func NewHCI(opts ...Option) (*HCI, error) {
+func NewHCI(id int, opts ...Option) (*HCI, error) {
 	h := &HCI{
-		id: -1,
+		id: id,
 
 		chCmdPkt:  make(chan *pkt),
 		chCmdBufs: make(chan []byte, 8),
